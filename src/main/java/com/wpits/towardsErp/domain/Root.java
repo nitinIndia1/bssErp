@@ -1,0 +1,50 @@
+package com.wpits.towardsErp.domain;
+
+import java.util.ArrayList;
+
+public class Root{
+    public String item_code;
+    public String item_description;
+    public int item_uom;
+    public String brand_id;
+    public String hsn_id;
+    public int category_id;
+    public String item_marketprice;
+    public int sales_account_code;
+    public String item_description_details;
+    public ArrayList<String> taxcodes;
+    public int purchases_account_code;
+    public String is_stock_item;
+    public String item_lot_control;
+    public String serial_control_type;
+    public String shelf_life_type;
+    public int shelf_life_period;
+    public String cycle_counter_enabled;
+    public String last_cycle_counter_date;
+    public String min_stock_level;
+    public String max_stock_level;
+    public String purchasing_lead_time_days;
+    public String planning_type;
+    public String safety_stock;
+    public String freight_item;
+    public String average_costing;
+    public String pos_cate_id;
+    public String item_pos_color;
+    public String quantity_limit;
+    public String till_sequence;
+    public String tare_weight;
+    public String hazard_subriak;
+    public String hazard_un;
+    public String hazard_pack_type;
+    public ArrayList<Object> tags;
+    public ArrayList<Uom> uoms;
+    public ArrayList<Object> barcodes;
+    public ArrayList<Supplier> suppliers;
+    public ArrayList<Object> quality_attribute;
+    public ArrayList<Object> item_alternate;
+    public ArrayList<Attribute> attributes;
+    public ArrayList<ItemPricing> item_pricing;
+    public ArrayList<Object> item_gallery;
+    public String item_active;
+    public String item_image;
+}
